@@ -1,0 +1,65 @@
+{
+    "command": "execute",
+    "editor_state": {
+        "nodes": [
+            {
+                "type": "Feed",
+                "id": "node_17361805219070",
+                "name": "Feed-1",
+                "options": [],
+                "state": {},
+                "interfaces": [
+                    [
+                        "Output 1",
+                        {
+                            "id": "ni_17361805219071",
+                            "value": null
+                        }
+                    ]
+                ],
+                "position": {
+                    "x": 78.01133242490357,
+                    "y": 308.43622627829257
+                },
+                "width": 200,
+                "twoColumn": false,
+                "customClasses": ""
+            },
+            {
+                "type": "Result",
+                "id": "node_17361805249092",
+                "name": "Result-1",
+                "options": [],
+                "state": {},
+                "interfaces": [
+                    [
+                        "Input 1",
+                        {
+                            "id": "ni_17361805249093",
+                            "value": null
+                        }
+                    ]
+                ],
+                "position": {
+                    "x": 477.7851458343757,
+                    "y": 347.61004216515045
+                },
+                "width": 200,
+                "twoColumn": false,
+                "customClasses": ""
+            }
+        ],
+        "connections": [
+            {
+                "id": "17361805264436",
+                "from": "ni_17361805219071",
+                "to": "ni_17361805249093"
+            }
+        ],
+        "panning": {
+            "x": 58.29690818541681,
+            "y": -81.2192092695314
+        },
+        "scaling": 0.8006681594794269
+    }
+}

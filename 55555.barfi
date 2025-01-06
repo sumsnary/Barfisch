@@ -1,0 +1,116 @@
+{
+    "command": "execute",
+    "editor_state": {
+        "nodes": [
+            {
+                "type": "Feed",
+                "id": "node_17361805219070",
+                "name": "Feed-1",
+                "options": [],
+                "state": {},
+                "interfaces": [
+                    [
+                        "Output 1",
+                        {
+                            "id": "ni_17361805219071",
+                            "value": null
+                        }
+                    ]
+                ],
+                "position": {
+                    "x": 78.01133242490357,
+                    "y": 308.43622627829257
+                },
+                "width": 200,
+                "twoColumn": false,
+                "customClasses": ""
+            },
+            {
+                "type": "Result",
+                "id": "node_17361805249092",
+                "name": "Result-1",
+                "options": [],
+                "state": {},
+                "interfaces": [
+                    [
+                        "Input 1",
+                        {
+                            "id": "ni_17361805249093",
+                            "value": null
+                        }
+                    ]
+                ],
+                "position": {
+                    "x": 477.7851458343757,
+                    "y": 347.61004216515045
+                },
+                "width": 200,
+                "twoColumn": false,
+                "customClasses": ""
+            },
+            {
+                "type": "Feed",
+                "id": "node_17361819169236",
+                "name": "Feed-1",
+                "options": [],
+                "state": {},
+                "interfaces": [
+                    [
+                        "Output 1",
+                        {
+                            "id": "ni_17361819169237",
+                            "value": null
+                        }
+                    ]
+                ],
+                "position": {
+                    "x": 134.34288817268762,
+                    "y": 157.6495959014544
+                },
+                "width": 200,
+                "twoColumn": false,
+                "customClasses": ""
+            },
+            {
+                "type": "Result",
+                "id": "node_17361819203768",
+                "name": "Result-1",
+                "options": [],
+                "state": {},
+                "interfaces": [
+                    [
+                        "Input 1",
+                        {
+                            "id": "ni_17361819203769",
+                            "value": null
+                        }
+                    ]
+                ],
+                "position": {
+                    "x": 424.23435610947024,
+                    "y": 198.28858673371366
+                },
+                "width": 200,
+                "twoColumn": false,
+                "customClasses": ""
+            }
+        ],
+        "connections": [
+            {
+                "id": "17361805264436",
+                "from": "ni_17361805219071",
+                "to": "ni_17361805249093"
+            },
+            {
+                "id": "173618192162112",
+                "from": "ni_17361819169237",
+                "to": "ni_17361819203769"
+            }
+        ],
+        "panning": {
+            "x": 240.8904605118394,
+            "y": 3.5517343998405906
+        },
+        "scaling": 0.7382073074557253
+    }
+}
