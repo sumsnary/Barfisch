@@ -14,11 +14,6 @@
        venvScriptsactivate
        
 
-     • На macOS/Linux:
-       
-       source venv/bin/activate
-       
-
 2. Установите необходимые зависимости:
 
    • Убедитесь, что у вас установлен Streamlit. Если нет, установите его с помощью команды:
