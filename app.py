@@ -32,7 +32,7 @@ def create_scheme(name, schema_data):
     st.success("Схема успешно сохранена!")
 
 def delete_scheme(name):
-    st.balloons()
+    
     delete_schema(name)
     st.success(f"Схема '{name}' успешно удалена.")
 
